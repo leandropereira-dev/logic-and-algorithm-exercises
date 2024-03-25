@@ -12,7 +12,7 @@ form.addEventListener('submit', (e) => {
 
     resp1.innerText = `Promoção: ${vehicle}`;
     resp2.innerText = `Entrada de R$: ${entry.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`;
-    resp3.innerText = `+12x de R$ ${installments.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`;
+    resp3.innerText = `+ 12x de R$ ${installments.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`;
 
     e.preventDefault();
 });
