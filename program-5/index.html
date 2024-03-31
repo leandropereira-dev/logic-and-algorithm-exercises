@@ -10,26 +10,22 @@
       <div class="container">
          <h1>Promoção Farmácia</h1>
          <form>
-            <label>
-               Medicamento:
-               <input
-                  type="text"
-                  id="inName"
-                  placeholder="Nome do medicamento"
-                  required
-               />
-            </label>
-            <label>
-               Preço R$:
-               <input
-                  type="number"
-                  id="inPrice"
-                  placeholder="Preço do medicamento"
-                  min="0"
-                  step="0.01"
-                  required
-               />
-            </label>
+            <label for="inName">Medicamento:</label>
+            <input
+               type="text"
+               id="inName"
+               placeholder="Nome do medicamento"
+               required
+            />
+            <label for="inPrice">Preço R$:</label>
+            <input
+               type="number"
+               id="inPrice"
+               placeholder="Preço do medicamento"
+               min="0"
+               step="0.01"
+               required
+            />
             <input class="btn" type="submit" value="Mostrar Promoção" />
          </form>
          <h3 id="outResp1"></h3>

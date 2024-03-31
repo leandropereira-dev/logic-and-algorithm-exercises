@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Programa 3</title>
-</head>
-<body>
-    <div class="container">
-        <div class="column">
-            <h1>Revenda de Veículos </h1>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Programa 3</title>
+   </head>
+   <body>
+      <div class="container">
+         <div class="column">
+            <h1>Revenda de Veículos</h1>
             <span class="line"></span>
             <form>
-                <p>Veículo:
-                    <input type="text" 
-                    id="inVehicle" 
-                    placeholder="Digite o nome do veículo" 
-                    required>
-                </p>
-                <p>Preço R$: 
-                    <input type="number" 
-                    id="inPrice" 
-                    placeholder="Digite o preço do veículo" 
-                    required>
-                </p>
-                <input class="btn" type="submit" value="Promover veículo">
+               <label for="inVehicle">Veículo:</label>
+               <input
+                  type="text"
+                  id="inVehicle"
+                  placeholder="Digite o nome do veículo"
+                  required
+               />
+               <label for="inPrice">Preço R$:</label>
+               <input
+                  type="number"
+                  id="inPrice"
+                  placeholder="Digite o preço do veículo"
+                  required
+               />
+               <input class="btn" type="submit" value="Promover veículo" />
             </form>
             <h3 id="outResp1"></h3>
             <h3 id="outResp2"></h3>
             <h3 id="outResp3"></h3>
-        </div>
-    </div>
-    <script src="script.js"></script>
-</body>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
 </html>
