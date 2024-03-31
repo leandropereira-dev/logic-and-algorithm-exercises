@@ -1,91 +1,91 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: sans-serif;
-    background-color: #eee;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: sans-serif;
+   background-color: #eee;
 }
 
 .container {
-    width: 600px;
-    height: 680px;
-    display: flex;
-    flex-direction: column;
-    border: solid 4px #ccc;
-    background-color: #b00;
+   width: 600px;
+   height: 680px;
+   display: flex;
+   flex-direction: column;
+   border: solid 4px #ccc;
+   background-color: #b00;
 }
 
 h1 {
-    margin-top: 44px;
-    font-style: normal;
-    font-size: 46px;
-    color: #fff;
-    text-align: center;
+   margin-top: 44px;
+   font-style: normal;
+   font-size: 46px;
+   color: #fff;
+   text-align: center;
 }
 
 label {
-    font-size: 22px;
-    font-weight: 600;
-    color: #eee;
+   font-size: 22px;
+   font-weight: 600;
+   color: #eee;
 }
 
 input {
-    height: 38px;
-    width: 364px;
-    padding-left: 14px;
-    border: 2px solid #999;
-    margin-bottom: 26px;
-    display: flex;
-    margin-top: 8px;
-    font-size:22px;
-    border-radius: 3px;
+   height: 38px;
+   width: 364px;
+   padding-left: 14px;
+   border: 2px solid #999;
+   margin-bottom: 26px;
+   display: flex;
+   margin-top: 8px;
+   font-size: 22px;
+   border-radius: 3px;
 }
 
 input:focus {
-    border: 2px solid #0022fe;
-    outline: 0;
+   border: 2px solid #0022fe;
+   outline: 0;
 }
 
 .btn {
-    width: 260px;
-    height: 46px;
-    display: flex;
-    justify-content: center;
-    background-color: #0022fe;
-    border: 1px solid #ccc;
-    color: #fff;
-    font-weight: 600;
-    font-size: 18px;
-    padding: 0 20px;
-    font-size: 22px;
-    border-radius: 5px;
+   width: 260px;
+   height: 46px;
+   display: flex;
+   justify-content: center;
+   background-color: #0022fe;
+   border: 1px solid #ccc;
+   color: #fff;
+   font-weight: 600;
+   font-size: 18px;
+   padding: 0 20px;
+   font-size: 22px;
+   border-radius: 5px;
 }
 
 .btn:hover {
-    background-color: #01a;
-    cursor: pointer;
-    border: 1px solid #aaa;
-    color: #ddd;
+   background-color: #01a;
+   cursor: pointer;
+   border: 1px solid #aaa;
+   color: #ddd;
 }
 
 .btn:focus {
-    border: 1px solid #ccc;
-    outline: 0;
+   border: 1px solid #ccc;
+   outline: 0;
 }
 
 h3 {
-    color: #eee;
-    font-size: 30px;
-    margin: 50px 0 0 36px;
+   color: #eee;
+   font-size: 30px;
+   margin: 50px 0 0 36px;
 }
 
 form {
-    margin: 26px 36px;
+   margin: 26px 36px;
 }

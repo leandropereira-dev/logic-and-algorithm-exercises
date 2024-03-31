@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programa 5</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Promoção Farmácia</h1>
-        <form>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Programa 5</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <div class="container">
+         <h1>Promoção Farmácia</h1>
+         <form>
             <label>
-                Medicamento:
-                <input 
-                type="text" 
-                id="inName" 
-                placeholder="Nome do medicamento" 
-                required>
+               Medicamento:
+               <input
+                  type="text"
+                  id="inName"
+                  placeholder="Nome do medicamento"
+                  required
+               />
             </label>
             <label>
-                Preço R$:
-                <input 
-                type="number" 
-                id="inPrice" 
-                placeholder="Preço do medicamento" 
-                required>
+               Preço R$:
+               <input
+                  type="number"
+                  id="inPrice"
+                  placeholder="Preço do medicamento"
+                  min="0"
+                  step="0.01"
+                  required
+               />
             </label>
-            <input 
-            class="btn" 
-            type="submit" 
-            value="Mostrar Promoção">
-        </form>
-        <h3></h3>
-        <h3></h3>
-    </div>
-    <script src="script.js"></script>
-</body>
+            <input class="btn" type="submit" value="Mostrar Promoção" />
+         </form>
+         <h3 id="outResp1"></h3>
+         <h3 id="outResp2"></h3>
+      </div>
+      <script src="script.js"></script>
+   </body>
 </html>
