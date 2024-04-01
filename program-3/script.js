@@ -19,6 +19,5 @@ form.addEventListener("submit", (e) => {
       style: "currency",
       currency: "BRL",
    })}`;
-
    e.preventDefault();
 });
