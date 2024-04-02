@@ -7,10 +7,10 @@
    <title>Programa 7</title>
 </head>
 <body>
-   <div>
+   <div class="container">
       <h1>Supermercado</h1>
       <form>
-         <label for="inProduct">Produto</label>
+         <label for="inProduct">Produto:</label>
          <input 
             type="text" 
             id="inProduct" 
@@ -21,7 +21,9 @@
          <input 
             type="number" 
             id="inPrice" 
-            placeholder="Valor do produto" 
+            placeholder="Valor do produto"
+            min="0" 
+            step="0.01" 
             required 
          />
          <input class="btn" type="submit" value="Ver Promoção" />
