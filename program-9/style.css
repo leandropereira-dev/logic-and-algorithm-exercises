@@ -1,0 +1,130 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   font-family: sans-serif;
+   background-color: #dde;
+}
+
+.container {
+   display: flex;
+   width: min-content;
+   gap: 50px;
+   justify-content: center;
+   align-content: center;
+   align-self: center ;
+   border: solid 2px chocolate;
+   border-radius: 8px;
+   padding: 36px;
+   background-color: #fff;
+}
+
+.column-form {
+   width: min-content;
+   height: min-content;
+   display: flex;
+   flex-direction: column;
+}
+
+h1 {
+   margin: 44px 0 18px;
+   font-style: normal;
+   font-size: 56px;
+   color: #007;
+}
+
+p{
+   font-size: 26px;
+   font-weight: 600;
+   color: #003;
+}
+
+label {
+   font-size: 26px;
+   font-weight: 600;
+   color: #003;
+   display: flex;
+   width: 200px;
+}
+
+input {
+   height: 38px;
+   width: 364px;
+   padding-left: 14px;
+   border: 2px solid #999;
+   margin-bottom: 36px;
+   display: flex;
+   margin-top: 8px;
+   font-size: 22px;
+   color: #002;
+   background-color: #fff;
+   border-radius: 8px;
+}
+
+input:focus {
+   border: 2px solid #009;
+   outline: 0;
+}
+
+.radio-option {
+   display: flex;
+   width: 600px;
+   margin-bottom: 36px;
+}
+
+.container-btn {
+   display: flex;
+   gap: 15px;
+}
+
+.btn {
+   width: 228px;
+   height: 52px;
+   display: flex;
+   justify-content: center;
+   background-color: #009900;
+   border-radius: 8px;
+   border: none;
+   color: #fff;
+   font-weight: 600;
+   font-size: 24px;
+   padding: 0 20px;
+}
+
+.btn:hover {
+   opacity: 0.8;
+   cursor: pointer;
+   color: #fff;
+   box-shadow: 2px 2px 5px #000;
+}
+
+.clean {
+   background-color: #ff0000;
+}
+
+h3 {
+   font-size: 28px;
+}
+
+.masculine-checked {
+   display: flex;
+   height: 26px;
+   margin: 0;
+   padding: 0;
+   align-self: center;
+   justify-self: start;
+}
+
+.feminine-checked {
+   display: flex;
+   height: 26px;
+   margin: 0;
+   padding: 0;
+   justify-self: start;
+}
