@@ -88,7 +88,7 @@ input:focus {
    height: 52px;
    display: flex;
    justify-content: center;
-   background-color: #009900;
+   background-color: #090;
    border-radius: 8px;
    border: none;
    color: #fff;
@@ -105,7 +105,7 @@ input:focus {
 }
 
 .clean {
-   background-color: #ff0000;
+   background-color: #f00;
 }
 
 h3 {
@@ -118,7 +118,6 @@ h3 {
    margin: 0;
    padding: 0;
    align-self: center;
-   justify-self: start;
 }
 
 .feminine-checked {
@@ -126,5 +125,5 @@ h3 {
    height: 26px;
    margin: 0;
    padding: 0;
-   justify-self: start;
+   align-self: center;
 }
