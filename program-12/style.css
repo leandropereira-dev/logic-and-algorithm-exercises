@@ -20,6 +20,7 @@ body {
    padding: 15px;
    background-color: #000;
    flex-direction: column;
+   justify-content: center;
 }
 
 .column-form {
@@ -96,6 +97,5 @@ input:focus {
 
 h3 {
    font-size: 26px;
-   color: #fff;
-   text-shadow: 1px 1px 2px #000;
+   color: #000;
 }
