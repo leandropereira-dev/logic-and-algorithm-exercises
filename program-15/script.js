@@ -9,7 +9,6 @@ form.addEventListener("submit", (e) => {
 
    if (amountDeposited < 1) {
       reply1.innerText = "Valor Infuficiente";
-      reply1.style.color = "red";
    } else if (amountDeposited < 3) {
       const change = amountDeposited - 1.75;
       reply1.innerText = "Tempo: 60 min"
