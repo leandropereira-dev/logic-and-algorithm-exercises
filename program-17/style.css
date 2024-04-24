@@ -8,21 +8,23 @@ body {
    display: flex;
    justify-content: center;
    height: 100vh;
-   font-family: serif;
+   font-family: sans-serif;
 }
 
 .container {
-   height: 650px;
+   height: 850px;
    width: min-content;
    display: flex;
-   margin-top: 26px;
+   align-self: center;
    justify-content: center;
-   padding: 26px;
    gap: 15px;
+   background-color: #003;
 }
 
 .column-img {
-   margin-top: 58px;
+   background-color: #001;
+   padding: 0 24px;
+   align-content: center;
 }
 
 .column-form {
@@ -30,25 +32,28 @@ body {
    flex-direction: column;
    height: 630px;
    width: 570px;
-   align-self: center;
    border-radius: 4px;
+   padding: 0 20px;
 }
 
 h1 {
    margin-bottom: 28px;
+   width: 300px;
    font-style: normal;
    font-size: 36px;
    color: #333;
    padding-bottom: 6px;
-   border-bottom: solid 4px #02ae;
-   margin-top: 26px;
-   color: darkmagenta;
+   border-bottom: solid 4px #006;
+   margin-top: 28px;
+   color: #ddf;
+   text-align: center;
+   align-self: center;
 }
 
 label {
-   font-size: 22px;
+   font-size: 24px;
    font-weight: 600;
-   color: #8a007a;
+   color: #bbf;
 }
 
 input {
@@ -63,7 +68,7 @@ input {
 }
 
 input:focus {
-   border: 2px solid #dddd00;
+   border: 2px solid #aaf;
    outline: 0;
 }
 
@@ -72,9 +77,9 @@ input:focus {
    height: 52px;
    display: flex;
    justify-content: center;
-   background-color: #eeee00;
+   background-color: #090;
    border: solid 2px #ddd;
-   color: #005;
+   color: #fff;
    font-weight: 600;
    font-size: 24px;
    padding: 0 20px;
@@ -82,17 +87,12 @@ input:focus {
 
 .btn:hover {
    cursor: pointer;
-   background-color: #af0;
-   color: #005;
+   background-color: #060;
+   color: #eee;
 }
 
-h3 {
+pre {
    font-size: 26px;
-   color: #111;
-   margin-bottom: 12px;
+   color: #eef;
 }
 
-h4 {
-   font-size: 26px;
-   color: #111;
-}
