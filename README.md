@@ -5,7 +5,7 @@ Este repositório contém vários programas em JavaScript, com manipulação do 
 
 ## Visão Geral
 
-- **Programa 1:** Recebe o nome do usuário, depois responde ao usuário utilizando o nome recebido no input.
+- **Programa 1:** Cumprimenta o usuário, utilizando o nome recebido no input.
 ![Captura de tela do program 1](img/programa1.png)
 - **Programa 2:** Lê o título e a duração de um filme em minutos. Exiba o título do filme e converta a duração para horas e minutos.
 ![Captura de tela do program 2](img/programa2.png)
@@ -45,4 +45,4 @@ Este repositório contém vários programas em JavaScript, com manipulação do 
 Clone este repositório em sua máquina, depois abra o arquivo `index.html` no seu navegador para visualizar localmente.
 
 ```bash
-git clone https://github.com/leandropereira-dev/logic-and-algorithm-exercises.git
+git clone https://github.com/leandropereira-dev/logic-and-algorithm-exercises.git 
