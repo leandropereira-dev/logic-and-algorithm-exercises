@@ -3,6 +3,14 @@
 
 Este repositório contém vários programas em JavaScript, com manipulação do DOM. Esses programas são exercícios do livro “Lógica de Programação e Algoritmos com JavaScript (editora: Novatec, autor: Edécio Fernando Lepsen).
 
+## Como Usar
+
+Clone este repositório em sua máquina, depois abra os arquivos `index.html` que deseja visualizar no seu navegador, para visualizar localmente.
+
+```sh
+git clone https://github.com/leandropereira-dev/logic-and-algorithm-exercises.git
+```
+
 ## Visão Geral
 
 - **Programa 1:** Cumprimenta o usuário, utilizando o nome recebido no input.
@@ -40,9 +48,3 @@ Este repositório contém vários programas em JavaScript, com manipulação do 
 - **Programa 17:** Exibe a tabuada de um número selecionado pelo usuário.
 ![Captura de tela do program 17](img/programa17.png)
   
-## Como Usar
-
-Clone este repositório em sua máquina, depois abra o arquivo `index.html` no seu navegador para visualizar localmente.
-
-```bash
-git clone https://github.com/leandropereira-dev/logic-and-algorithm-exercises.git 
