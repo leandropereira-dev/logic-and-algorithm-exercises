@@ -47,4 +47,6 @@ git clone https://github.com/leandropereira-dev/logic-and-algorithm-exercises.gi
 ![Captura de tela do program 16](img/programa16.png)
 - **Programa 17:** Exibe a tabuada de um número selecionado pelo usuário.
 ![Captura de tela do program 17](img/programa17.png)
+- **Programa 18:** Exibe uma lista de números em ordem decrescentes com o valor inicial informado pelo usuário.
+![Captura de tela do program 17](img/programa18.png)
   
